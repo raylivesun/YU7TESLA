@@ -1,0 +1,18 @@
+{
+  "Include": [
+    "*.vhd",
+    "*.vhdl",
+    "*.v",
+    "*.vcd",
+    "vhdl_ls.toml"
+  ],
+  "Exclude": [
+    "build"
+  ],
+  "Toolchain": "Yosys",
+  "Loader": "OpenFpgaLoader",
+  "TopEntity": "YU7TESLA.vhd",
+  "TestBenches": [
+    "YU7TESLA_tb.vhd"
+  ]
+}
